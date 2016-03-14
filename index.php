@@ -8,7 +8,7 @@
 require 'vendor/autoload.php';
 
 function getDB(){
-    $db = parse_ini_file("db.ini");    
+    $db = parse_ini_file("/etc/db.ini");    
     $dbhost = $db['host'];
     $dbuser = $db['user'];
     $dbpass = $db['password'];
